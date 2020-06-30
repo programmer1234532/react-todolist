@@ -1,0 +1,105 @@
+*{
+    border:0;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+#root{
+    display: flex;
+    margin: auto;
+}
+
+.container{
+    background-color: rgb(218, 28, 28);
+    display: flex;
+    flex-direction: column;  
+    width: 100%;
+    min-height: 100%;
+    height: 754px;
+}
+
+.extra-container{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    height: 30%;
+}
+
+.input-style{
+    display: flex;
+    
+    padding-right: 1rem;
+}
+
+.btn{
+    display: flex;
+    
+}
+
+.tododiv{
+    background-color: chartreuse;
+    height:70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main{
+    display: flex;
+}
+
+.button{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: .5rem 1rem;
+
+}
+
+.todolist{
+    background-color: black;
+    height: 80%;
+    display: flex;
+    width: 80%;
+    align-items: center;
+    flex-direction: column;
+}
+
+.todo{
+    background-color: darkgray;
+    height: 15%;
+    width: 90%;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.para{
+    display: flex;
+    justify-content: flex-start;
+    flex-basis: 50%;
+    margin-left: 2rem;
+}
+
+.icons{
+    display: flex;
+    justify-content: flex-end;
+    flex-basis: 60%;
+    margin-right: .5rem;
+
+    i{
+        margin-right: 1rem;
+    }
+}
+
+.line{
+    text-decoration: line-through;
+}
+
+.no-line{
+    text-decoration: none;
+}
